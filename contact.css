@@ -1,0 +1,85 @@
+body{
+    background-image:  url(img\ contacts.jpg)
+ }
+ h3{
+    color: #fff;
+    box-sizing: border-box;
+    box-shadow: 3px 3px 3px #fff;
+    
+ }
+ li{
+    font-size: 24px;
+    box-shadow: 3px 3px 3px #fff;
+ }
+ li a{
+    color: #fff;
+ }
+ .map{
+    text-align: center;
+    display: block;
+    padding-left: 50px;
+ }
+ .contenu-footer{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 20px;
+    padding: 50px 0 100px;
+}
+.bloc{
+    width: 25%;
+    margin: 0 30px;
+}
+/*contact*/
+.footer-services h3,
+.footer-contact h3,
+.footer-media h3{ 
+    font-size: 25px;
+    padding-bottom: 20px;
+
+}
+.footer-contact p{
+     padding: 5px 0;
+}
+/*services*/
+.list-services{
+    position: relative;
+    right: 35px;
+    
+}
+.list-services,
+.list-media{
+    list-style-type: none;
+    display: block;
+}
+.list-services li{
+    padding: 2px 0;
+    display: flex;
+    
+}
+.list-services a{
+    text-decoration: none;
+    color: #333;
+}
+.list-services a:hover{
+    color: rgb(3, 3, 3);
+
+}
+/*media*/
+.list-media{
+    position: relative;
+    right: 50px;
+}
+.list-media img{
+    width: 40px;
+    margin: 10px 10px;
+}
+.list-media a {
+    text-decoration: none;
+    color: #333;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+}
